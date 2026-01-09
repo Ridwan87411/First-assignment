@@ -4,6 +4,8 @@
     padding: 0px;
 }
 .header{
+    height: 92px;
+    width: 1600px;
 
     background-color: white;
     padding-top: 15px;
@@ -43,11 +45,108 @@ nav .button button{
     color: black;
     background-color: green;
     border-radius: 5px;
-    
-    
 }
+
+nav .button button:hover{
+    background-color: white;
+}
+
 nav .menu a{
     text-decoration: none;
     color: black;
 }
-        
+
+#banner{
+   width: 1600px; 
+   height: 674px;
+   padding-top: 250px;
+   text-align: center;
+   background-image: url("../images/hero-bg.png");
+   background-repeat: no-repeat;
+
+    
+}
+#banner .button2 button{
+ background-color: white;
+ color: green;
+ border-radius: 50px;
+ }  
+#banner .button2 button:hover{
+    background-color: red;
+}
+#banner .heading3{
+    color: green; 
+} 
+#banner .button3 button{
+    margin: 0px;
+    color: white;
+    padding-bottom: 7px;
+    background-color: rgb(81, 182, 81);
+    border-radius: 10px;
+    padding-bottom: 0px;
+    
+}   
+
+
+#banner .button3 button .btnicon {
+    width: 20px;    /* icon width */
+    height: 15px;   /* icon height */
+    padding-top: 2px;
+    
+}
+
+#banner .button3 button .btnicon1 {
+    width: 20px;    /* icon width */
+    height: 15px;   /* icon height */
+    padding-top: 2px;
+    color: white;
+    
+}
+
+#notes{
+    width: 1600px;
+    height: 448px;
+    text-align: center;
+    padding-top: 700px;
+    
+    
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    
+    margin-top: -300px;
+    margin-left: 200px;
+    margin-right: 100px;
+    border: 2px solid red;
+
+    text-align: center;
+
+    padding: 20px;
+    padding-top: 60px;
+    box-shadow: 10px 10px 10px black;
+   
+    
+.card1{
+    width: 150px;
+    height: 150px;
+    
+    margin-top: -300px;
+    margin-left: 0px;
+    margin-right: 100px;
+    border: 2px solid red;
+
+    text-align: center;
+
+    padding: 20px;
+    padding-top: 60px;
+    box-shadow: 10px 10px 10px black;
+   
+     
+}
+.cardcontainer{
+    display: 
+   
+}
+
