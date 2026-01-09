@@ -117,7 +117,7 @@ nav .menu a{
     height: 150px;
     
     margin-top: -300px;
-    margin-left: 200px;
+    margin-left: 350px;
     margin-right: 100px;
     border: 2px solid red;
 
@@ -127,13 +127,14 @@ nav .menu a{
     padding-top: 60px;
     box-shadow: 10px 10px 10px black;
    
-    
+}
+
 .card1{
     width: 150px;
     height: 150px;
     
-    margin-top: -300px;
-    margin-left: 0px;
+    margin-top: -235px;
+    margin-left: 600px;
     margin-right: 100px;
     border: 2px solid red;
 
@@ -143,10 +144,124 @@ nav .menu a{
     padding-top: 60px;
     box-shadow: 10px 10px 10px black;
    
-     
 }
-.cardcontainer{
-    display: 
+
+.card2{
+    width: 150px;
+    height: 150px;
+    
+    margin-top: -235px;
+    margin-left: 850px;
+    margin-right: 100px;
+    border: 2px solid red;
+
+    text-align: center;
+
+    padding: 20px;
+    padding-top: 60px;
+    box-shadow: 10px 10px 10px black;
+   
+}
+.card3{
+    width: 150px;
+    height: 150px;
+    
+    margin-top: -235px;
+    margin-left: 1100px;
+    margin-right: 100px;
+    border: 2px solid red;
+
+    text-align: center;
+
+    padding: 20px;
+    padding-top: 60px;
+    box-shadow: 10px 10px 10px black;
    
 }
 
+.cardcontainer{
+    display: flex;
+   
+}
+#know{
+    height: 840px;
+    width: 1300px;
+    padding: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#know .desc{
+    padding: 50px;
+   
+}
+
+#know .cap{
+    list-style: none;
+}
+
+#ready{
+    width: 1000px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -400px;
+    background-color: rgb(240, 235, 227);
+    
+    border: 2px solid white;
+    padding-left: 200px;
+    
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+#ready .join{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 150px;
+
+}
+
+#ready .get{
+    height: 20px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+#ready .get img{
+    width: 15px;
+    height: 15px;
+}
+#ready .get:hover {
+    background-color: skyblue;
+}
+#foot{
+    width: 1600px;
+    height: 300px;
+    background-color: rgb(15, 15, 46);
+    margin-top: 100px;
+    display: flex;
+   
+}
+
+#foot .social img {
+    width: 70px;   /* change size here */
+    height: 70px;
+    margin-right: 10px; /* space between icons */
+    background-color: white;
+    margin: -800px 1200px 0px 800px;
+    
+}
+.face{
+    color: white;
+    padding-top: 100px;
+    padding-left: 1000px;
+}
+
+.blue{
+    padding: 100px;
+}
